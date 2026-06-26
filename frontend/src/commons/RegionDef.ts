@@ -1,0 +1,546 @@
+////// 광역행정구역
+export const REGION_SEOUL = 2;
+export const REGION_GYEONGGI = 3;
+export const REGION_INCHEON = 4;
+export const REGION_CHUNGCHEONGBUK = 5;
+export const REGION_CHUNGCHEONGNAM = 6;
+export const REGION_GANGWON = 7;
+export const REGION_BUSAN = 8;
+export const REGION_DAEGU = 9;
+export const REGION_GWANGJU = 10;
+export const REGION_DAEJEON = 11;
+export const REGION_ULSAN = 12;
+export const REGION_SEJONG = 13;
+export const REGION_JEJU = 14;
+export const REGION_GYEONGSANGBUK = 15;
+export const REGION_GYEONGSANGNAM = 16;
+export const REGION_JEONBUK = 17;
+export const REGION_JEONNAM = 18;
+
+export const REGION_SEOUL_STR = '서울특별시';
+export const REGION_GYEONGGI_STR = '경기도';
+export const REGION_INCHEON_STR = '인천광역시';
+export const REGION_CHUNGCHEONGBUK_STR = '충청북도';
+export const REGION_CHUNGCHEONGNAM_STR = '충청남도';
+export const REGION_GANGWON_STR = '강원특별자치도';
+export const REGION_BUSAN_STR = '부산광역시';
+export const REGION_DAEGU_STR = '대구광역시';
+export const REGION_GWANGJU_STR = '광주광역시';
+export const REGION_DAEJEON_STR = '대전광역시';
+export const REGION_ULSAN_STR = '울산광역시';
+export const REGION_SEJONG_STR = '세종특별자치시';
+export const REGION_JEJU_STR = '제주특별자치도';
+export const REGION_GYEONGSANGBUK_STR = '경상북도';
+export const REGION_GYEONGSANGNAM_STR = '경상남도';
+export const REGION_JEONBUK_STR = '전북특별자치도';
+export const REGION_JEONNAM_STR = '전라남도';
+
+////// 시군구
+// 서울특별시 (25개 구)
+export const DISTRICT_SEOUL_JONGNO = 101;
+export const DISTRICT_SEOUL_JUNG = 102;
+export const DISTRICT_SEOUL_YONGSAN = 103;
+export const DISTRICT_SEOUL_SEONGDONG = 104;
+export const DISTRICT_SEOUL_GWANGJIN = 105;
+export const DISTRICT_SEOUL_DONGDAEMUN = 106;
+export const DISTRICT_SEOUL_JUNGNANG = 107;
+export const DISTRICT_SEOUL_SEONGBUK = 108;
+export const DISTRICT_SEOUL_GANGBUK = 109;
+export const DISTRICT_SEOUL_DOBONG = 110;
+export const DISTRICT_SEOUL_NOWON = 111;
+export const DISTRICT_SEOUL_EUNPYEONG = 112;
+export const DISTRICT_SEOUL_SEODAEMUN = 113;
+export const DISTRICT_SEOUL_MAPO = 114;
+export const DISTRICT_SEOUL_YANGCHEON = 115;
+export const DISTRICT_SEOUL_GANGSEO = 116;
+export const DISTRICT_SEOUL_GURO = 117;
+export const DISTRICT_SEOUL_GEUMCHEON = 118;
+export const DISTRICT_SEOUL_YEONGDEUNGPO = 119;
+export const DISTRICT_SEOUL_DONGJAK = 120;
+export const DISTRICT_SEOUL_GWANAK = 121;
+export const DISTRICT_SEOUL_SEOCHO = 122;
+export const DISTRICT_SEOUL_GANGNAM = 123;
+export const DISTRICT_SEOUL_SONGPA = 124;
+export const DISTRICT_SEOUL_GANGDONG = 125;
+
+export const DISTRICT_SEOUL_JONGNO_STR = '종로구';
+export const DISTRICT_SEOUL_JUNG_STR = '중구';
+export const DISTRICT_SEOUL_YONGSAN_STR = '용산구';
+export const DISTRICT_SEOUL_SEONGDONG_STR = '성동구';
+export const DISTRICT_SEOUL_GWANGJIN_STR = '광진구';
+export const DISTRICT_SEOUL_DONGDAEMUN_STR = '동대문구';
+export const DISTRICT_SEOUL_JUNGNANG_STR = '중랑구';
+export const DISTRICT_SEOUL_SEONGBUK_STR = '성북구';
+export const DISTRICT_SEOUL_GANGBUK_STR = '강북구';
+export const DISTRICT_SEOUL_DOBONG_STR = '도봉구';
+export const DISTRICT_SEOUL_NOWON_STR = '노원구';
+export const DISTRICT_SEOUL_EUNPYEONG_STR = '은평구';
+export const DISTRICT_SEOUL_SEODAEMUN_STR = '서대문구';
+export const DISTRICT_SEOUL_MAPO_STR = '마포구';
+export const DISTRICT_SEOUL_YANGCHEON_STR = '양천구';
+export const DISTRICT_SEOUL_GANGSEO_STR = '강서구';
+export const DISTRICT_SEOUL_GURO_STR = '구로구';
+export const DISTRICT_SEOUL_GEUMCHEON_STR = '금천구';
+export const DISTRICT_SEOUL_YEONGDEUNGPO_STR = '영등포구';
+export const DISTRICT_SEOUL_DONGJAK_STR = '동작구';
+export const DISTRICT_SEOUL_GWANAK_STR = '관악구';
+export const DISTRICT_SEOUL_SEOCHO_STR = '서초구';
+export const DISTRICT_SEOUL_GANGNAM_STR = '강남구';
+export const DISTRICT_SEOUL_SONGPA_STR = '송파구';
+export const DISTRICT_SEOUL_GANGDONG_STR = '강동구';
+
+// 경기도 (28개 시, 3개 군)
+export const DISTRICT_GYEONGGI_SUWON = 201;
+export const DISTRICT_GYEONGGI_SEONGNAM = 202;
+export const DISTRICT_GYEONGGI_UIJEONGBU = 203;
+export const DISTRICT_GYEONGGI_ANYANG = 204;
+export const DISTRICT_GYEONGGI_BUCHEON = 205;
+export const DISTRICT_GYEONGGI_GWANGMYEONG = 206;
+export const DISTRICT_GYEONGGI_PYEONGTAEK = 207;
+export const DISTRICT_GYEONGGI_DONGDUCHEON = 208;
+export const DISTRICT_GYEONGGI_ANSAN = 209;
+export const DISTRICT_GYEONGGI_GOYANG = 210;
+export const DISTRICT_GYEONGGI_GWACHEON = 211;
+export const DISTRICT_GYEONGGI_GURI = 212;
+export const DISTRICT_GYEONGGI_NAMYANGJU = 213;
+export const DISTRICT_GYEONGGI_OSAN = 214;
+export const DISTRICT_GYEONGGI_SIHEUNG = 215;
+export const DISTRICT_GYEONGGI_GUNPO = 216;
+export const DISTRICT_GYEONGGI_UIWANG = 217;
+export const DISTRICT_GYEONGGI_HANAM = 218;
+export const DISTRICT_GYEONGGI_YONGIN = 219;
+export const DISTRICT_GYEONGGI_PAJU = 220;
+export const DISTRICT_GYEONGGI_ICHEON = 221;
+export const DISTRICT_GYEONGGI_ANSEONG = 222;
+export const DISTRICT_GYEONGGI_GIMPO = 223;
+export const DISTRICT_GYEONGGI_HWASEONG = 224;
+export const DISTRICT_GYEONGGI_GWANGJU = 225;
+export const DISTRICT_GYEONGGI_YANGJU = 226;
+export const DISTRICT_GYEONGGI_POCHEON = 227;
+export const DISTRICT_GYEONGGI_YEOJU = 228;
+export const DISTRICT_GYEONGGI_YEONCHEON = 229;
+export const DISTRICT_GYEONGGI_GAPYEONG = 230;
+export const DISTRICT_GYEONGGI_YANGPYEONG = 231;
+
+export const DISTRICT_GYEONGGI_SUWON_STR = '수원시';
+export const DISTRICT_GYEONGGI_SEONGNAM_STR = '성남시';
+export const DISTRICT_GYEONGGI_UIJEONGBU_STR = '의정부시';
+export const DISTRICT_GYEONGGI_ANYANG_STR = '안양시';
+export const DISTRICT_GYEONGGI_BUCHEON_STR = '부천시';
+export const DISTRICT_GYEONGGI_GWANGMYEONG_STR = '광명시';
+export const DISTRICT_GYEONGGI_PYEONGTAEK_STR = '평택시';
+export const DISTRICT_GYEONGGI_DONGDUCHEON_STR = '동두천시';
+export const DISTRICT_GYEONGGI_ANSAN_STR = '안산시';
+export const DISTRICT_GYEONGGI_GOYANG_STR = '고양시';
+export const DISTRICT_GYEONGGI_GWACHEON_STR = '과천시';
+export const DISTRICT_GYEONGGI_GURI_STR = '구리시';
+export const DISTRICT_GYEONGGI_NAMYANGJU_STR = '남양주시';
+export const DISTRICT_GYEONGGI_OSAN_STR = '오산시';
+export const DISTRICT_GYEONGGI_SIHEUNG_STR = '시흥시';
+export const DISTRICT_GYEONGGI_GUNPO_STR = '군포시';
+export const DISTRICT_GYEONGGI_UIWANG_STR = '의왕시';
+export const DISTRICT_GYEONGGI_HANAM_STR = '하남시';
+export const DISTRICT_GYEONGGI_YONGIN_STR = '용인시';
+export const DISTRICT_GYEONGGI_PAJU_STR = '파주시';
+export const DISTRICT_GYEONGGI_ICHEON_STR = '이천시';
+export const DISTRICT_GYEONGGI_ANSEONG_STR = '안성시';
+export const DISTRICT_GYEONGGI_GIMPO_STR = '김포시';
+export const DISTRICT_GYEONGGI_HWASEONG_STR = '화성시';
+export const DISTRICT_GYEONGGI_GWANGJU_STR = '광주시';
+export const DISTRICT_GYEONGGI_YANGJU_STR = '양주시';
+export const DISTRICT_GYEONGGI_POCHEON_STR = '포천시';
+export const DISTRICT_GYEONGGI_YEOJU_STR = '여주시';
+export const DISTRICT_GYEONGGI_YEONCHEON_STR = '연천군';
+export const DISTRICT_GYEONGGI_GAPYEONG_STR = '가평군';
+export const DISTRICT_GYEONGGI_YANGPYEONG_STR = '양평군';
+
+// 인천광역시 (8개 구, 2개 군)
+export const DISTRICT_INCHEON_JUNG = 301;
+export const DISTRICT_INCHEON_DONG = 302;
+export const DISTRICT_INCHEON_MICHUHOL = 303;
+export const DISTRICT_INCHEON_YEONSU = 304;
+export const DISTRICT_INCHEON_NAMDONG = 305;
+export const DISTRICT_INCHEON_BUPYEONG = 306;
+export const DISTRICT_INCHEON_GYEYANG = 307;
+export const DISTRICT_INCHEON_SEO = 308;
+export const DISTRICT_INCHEON_GANGHWA = 309;
+export const DISTRICT_INCHEON_ONGJIN = 310;
+
+export const DISTRICT_INCHEON_JUNG_STR = '중구';
+export const DISTRICT_INCHEON_DONG_STR = '동구';
+export const DISTRICT_INCHEON_MICHUHOL_STR = '미추홀구';
+export const DISTRICT_INCHEON_YEONSU_STR = '연수구';
+export const DISTRICT_INCHEON_NAMDONG_STR = '남동구';
+export const DISTRICT_INCHEON_BUPYEONG_STR = '부평구';
+export const DISTRICT_INCHEON_GYEYANG_STR = '계양구';
+export const DISTRICT_INCHEON_SEO_STR = '서구';
+export const DISTRICT_INCHEON_GANGHWA_STR = '강화군';
+export const DISTRICT_INCHEON_ONGJIN_STR = '옹진군';
+
+// 충청북도 (3개 시, 8개 군)
+export const DISTRICT_CHUNGBUK_CHEONGJU = 401;
+export const DISTRICT_CHUNGBUK_CHUNGJU = 402;
+export const DISTRICT_CHUNGBUK_JECHEON = 403;
+export const DISTRICT_CHUNGBUK_BOEUN = 404;
+export const DISTRICT_CHUNGBUK_OKCHEON = 405;
+export const DISTRICT_CHUNGBUK_YEONGDONG = 406;
+export const DISTRICT_CHUNGBUK_JEUNGPYEONG = 407;
+export const DISTRICT_CHUNGBUK_JINCHEON = 408;
+export const DISTRICT_CHUNGBUK_GOESAN = 409;
+export const DISTRICT_CHUNGBUK_EUMSEONG = 410;
+export const DISTRICT_CHUNGBUK_DANYANG = 411;
+
+export const DISTRICT_CHUNGBUK_CHEONGJU_STR = '청주시';
+export const DISTRICT_CHUNGBUK_CHUNGJU_STR = '충주시';
+export const DISTRICT_CHUNGBUK_JECHEON_STR = '제천시';
+export const DISTRICT_CHUNGBUK_BOEUN_STR = '보은군';
+export const DISTRICT_CHUNGBUK_OKCHEON_STR = '옥천군';
+export const DISTRICT_CHUNGBUK_YEONGDONG_STR = '영동군';
+export const DISTRICT_CHUNGBUK_JEUNGPYEONG_STR = '증평군';
+export const DISTRICT_CHUNGBUK_JINCHEON_STR = '진천군';
+export const DISTRICT_CHUNGBUK_GOESAN_STR = '괴산군';
+export const DISTRICT_CHUNGBUK_EUMSEONG_STR = '음성군';
+export const DISTRICT_CHUNGBUK_DANYANG_STR = '단양군';
+
+// 충청남도 (8개 시, 7개 군)
+export const DISTRICT_CHUNGNAM_CHEONAN = 501;
+export const DISTRICT_CHUNGNAM_GONGJU = 502;
+export const DISTRICT_CHUNGNAM_BORYEONG = 503;
+export const DISTRICT_CHUNGNAM_ASAN = 504;
+export const DISTRICT_CHUNGNAM_SEOSAN = 505;
+export const DISTRICT_CHUNGNAM_NONSAN = 506;
+export const DISTRICT_CHUNGNAM_GYERYONG = 507;
+export const DISTRICT_CHUNGNAM_DANGJIN = 508;
+export const DISTRICT_CHUNGNAM_GEUMSAN = 509;
+export const DISTRICT_CHUNGNAM_BUYEO = 510;
+export const DISTRICT_CHUNGNAM_SEOCHEON = 511;
+export const DISTRICT_CHUNGNAM_CHEONGYANG = 512;
+export const DISTRICT_CHUNGNAM_HONGSEONG = 513;
+export const DISTRICT_CHUNGNAM_YESAN = 514;
+export const DISTRICT_CHUNGNAM_TAEAN = 515;
+
+export const DISTRICT_CHUNGNAM_CHEONAN_STR = '천안시';
+export const DISTRICT_CHUNGNAM_GONGJU_STR = '공주시';
+export const DISTRICT_CHUNGNAM_BORYEONG_STR = '보령시';
+export const DISTRICT_CHUNGNAM_ASAN_STR = '아산시';
+export const DISTRICT_CHUNGNAM_SEOSAN_STR = '서산시';
+export const DISTRICT_CHUNGNAM_NONSAN_STR = '논산시';
+export const DISTRICT_CHUNGNAM_GYERYONG_STR = '계룡시';
+export const DISTRICT_CHUNGNAM_DANGJIN_STR = '당진시';
+export const DISTRICT_CHUNGNAM_GEUMSAN_STR = '금산군';
+export const DISTRICT_CHUNGNAM_BUYEO_STR = '부여군';
+export const DISTRICT_CHUNGNAM_SEOCHEON_STR = '서천군';
+export const DISTRICT_CHUNGNAM_CHEONGYANG_STR = '청양군';
+export const DISTRICT_CHUNGNAM_HONGSEONG_STR = '홍성군';
+export const DISTRICT_CHUNGNAM_YESAN_STR = '예산군';
+export const DISTRICT_CHUNGNAM_TAEAN_STR = '태안군';
+
+// 강원특별자치도 (7개 시, 11개 군)
+export const DISTRICT_GANGWON_CHUNCHEON = 601;
+export const DISTRICT_GANGWON_WONJU = 602;
+export const DISTRICT_GANGWON_GANGNEUNG = 603;
+export const DISTRICT_GANGWON_DONGHAE = 604;
+export const DISTRICT_GANGWON_TAEBAEK = 605;
+export const DISTRICT_GANGWON_SOKCHO = 606;
+export const DISTRICT_GANGWON_SAMCHEOK = 607;
+export const DISTRICT_GANGWON_HONGCHEON = 608;
+export const DISTRICT_GANGWON_HOENGSEONG = 609;
+export const DISTRICT_GANGWON_YEONGWOL = 610;
+export const DISTRICT_GANGWON_PYEONGCHANG = 611;
+export const DISTRICT_GANGWON_JEONGSEON = 612;
+export const DISTRICT_GANGWON_CHEORWON = 613;
+export const DISTRICT_GANGWON_HWACHEON = 614;
+export const DISTRICT_GANGWON_YANGGU = 615;
+export const DISTRICT_GANGWON_INJE = 616;
+export const DISTRICT_GANGWON_GOSEONG = 617;
+export const DISTRICT_GANGWON_YANGYANG = 618;
+
+export const DISTRICT_GANGWON_CHUNCHEON_STR = '춘천시';
+export const DISTRICT_GANGWON_WONJU_STR = '원주시';
+export const DISTRICT_GANGWON_GANGNEUNG_STR = '강릉시';
+export const DISTRICT_GANGWON_DONGHAE_STR = '동해시';
+export const DISTRICT_GANGWON_TAEBAEK_STR = '태백시';
+export const DISTRICT_GANGWON_SOKCHO_STR = '속초시';
+export const DISTRICT_GANGWON_SAMCHEOK_STR = '삼척시';
+export const DISTRICT_GANGWON_HONGCHEON_STR = '홍천군';
+export const DISTRICT_GANGWON_HOENGSEONG_STR = '횡성군';
+export const DISTRICT_GANGWON_YEONGWOL_STR = '영월군';
+export const DISTRICT_GANGWON_PYEONGCHANG_STR = '평창군';
+export const DISTRICT_GANGWON_JEONGSEON_STR = '정선군';
+export const DISTRICT_GANGWON_CHEORWON_STR = '철원군';
+export const DISTRICT_GANGWON_HWACHEON_STR = '화천군';
+export const DISTRICT_GANGWON_YANGGU_STR = '양구군';
+export const DISTRICT_GANGWON_INJE_STR = '인제군';
+export const DISTRICT_GANGWON_GOSEONG_STR = '고성군';
+export const DISTRICT_GANGWON_YANGYANG_STR = '양양군';
+
+// 부산광역시 (15개 구, 1개 군)
+export const DISTRICT_BUSAN_JUNG = 701;
+export const DISTRICT_BUSAN_SEO = 702;
+export const DISTRICT_BUSAN_DONG = 703;
+export const DISTRICT_BUSAN_YEONGDO = 704;
+export const DISTRICT_BUSAN_BUSANJIN = 705;
+export const DISTRICT_BUSAN_DONGNAE = 706;
+export const DISTRICT_BUSAN_NAM = 707;
+export const DISTRICT_BUSAN_BUK = 708;
+export const DISTRICT_BUSAN_HAEUNDAE = 709;
+export const DISTRICT_BUSAN_SAHA = 710;
+export const DISTRICT_BUSAN_GEUMJEONG = 711;
+export const DISTRICT_BUSAN_GANGSEO = 712;
+export const DISTRICT_BUSAN_YEONJE = 713;
+export const DISTRICT_BUSAN_SUYEONG = 714;
+export const DISTRICT_BUSAN_SASANG = 715;
+export const DISTRICT_BUSAN_GIJANG = 716;
+
+export const DISTRICT_BUSAN_JUNG_STR = '중구';
+export const DISTRICT_BUSAN_SEO_STR = '서구';
+export const DISTRICT_BUSAN_DONG_STR = '동구';
+export const DISTRICT_BUSAN_YEONGDO_STR = '영도구';
+export const DISTRICT_BUSAN_BUSANJIN_STR = '부산진구';
+export const DISTRICT_BUSAN_DONGNAE_STR = '동래구';
+export const DISTRICT_BUSAN_NAM_STR = '남구';
+export const DISTRICT_BUSAN_BUK_STR = '북구';
+export const DISTRICT_BUSAN_HAEUNDAE_STR = '해운대구';
+export const DISTRICT_BUSAN_SAHA_STR = '사하구';
+export const DISTRICT_BUSAN_GEUMJEONG_STR = '금정구';
+export const DISTRICT_BUSAN_GANGSEO_STR = '강서구';
+export const DISTRICT_BUSAN_YEONJE_STR = '연제구';
+export const DISTRICT_BUSAN_SUYEONG_STR = '수영구';
+export const DISTRICT_BUSAN_SASANG_STR = '사상구';
+export const DISTRICT_BUSAN_GIJANG_STR = '기장군';
+
+// 대구광역시 (7개 구, 2개 군)
+export const DISTRICT_DAEGU_JUNG = 801;
+export const DISTRICT_DAEGU_DONG = 802;
+export const DISTRICT_DAEGU_SEO = 803;
+export const DISTRICT_DAEGU_NAM = 804;
+export const DISTRICT_DAEGU_BUK = 805;
+export const DISTRICT_DAEGU_SUSEONG = 806;
+export const DISTRICT_DAEGU_DALSEO = 807;
+export const DISTRICT_DAEGU_DALSEONG = 808;
+export const DISTRICT_DAEGU_GUNWI = 809;
+
+export const DISTRICT_DAEGU_JUNG_STR = '중구';
+export const DISTRICT_DAEGU_DONG_STR = '동구';
+export const DISTRICT_DAEGU_SEO_STR = '서구';
+export const DISTRICT_DAEGU_NAM_STR = '남구';
+export const DISTRICT_DAEGU_BUK_STR = '북구';
+export const DISTRICT_DAEGU_SUSEONG_STR = '수성구';
+export const DISTRICT_DAEGU_DALSEO_STR = '달서구';
+export const DISTRICT_DAEGU_DALSEONG_STR = '달성군';
+export const DISTRICT_DAEGU_GUNWI_STR = '군위군';
+
+// 광주광역시 (5개 구)
+export const DISTRICT_GWANGJU_DONG = 901;
+export const DISTRICT_GWANGJU_SEO = 902;
+export const DISTRICT_GWANGJU_NAM = 903;
+export const DISTRICT_GWANGJU_BUK = 904;
+export const DISTRICT_GWANGJU_GWANGSAN = 905;
+
+export const DISTRICT_GWANGJU_DONG_STR = '동구';
+export const DISTRICT_GWANGJU_SEO_STR = '서구';
+export const DISTRICT_GWANGJU_NAM_STR = '남구';
+export const DISTRICT_GWANGJU_BUK_STR = '북구';
+export const DISTRICT_GWANGJU_GWANGSAN_STR = '광산구';
+
+// 대전광역시 (5개 구)
+export const DISTRICT_DAEJEON_DONG = 1001;
+export const DISTRICT_DAEJEON_JUNG = 1002;
+export const DISTRICT_DAEJEON_SEO = 1003;
+export const DISTRICT_DAEJEON_YUSEONG = 1004;
+export const DISTRICT_DAEJEON_DAEDEOK = 1005;
+
+export const DISTRICT_DAEJEON_DONG_STR = '동구';
+export const DISTRICT_DAEJEON_JUNG_STR = '중구';
+export const DISTRICT_DAEJEON_SEO_STR = '서구';
+export const DISTRICT_DAEJEON_YUSEONG_STR = '유성구';
+export const DISTRICT_DAEJEON_DAEDEOK_STR = '대덕구';
+
+// 울산광역시 (4개 구, 1개 군)
+export const DISTRICT_ULSAN_JUNG = 1101;
+export const DISTRICT_ULSAN_NAM = 1102;
+export const DISTRICT_ULSAN_DONG = 1103;
+export const DISTRICT_ULSAN_BUK = 1104;
+export const DISTRICT_ULSAN_ULJU = 1105;
+
+export const DISTRICT_ULSAN_JUNG_STR = '중구';
+export const DISTRICT_ULSAN_NAM_STR = '남구';
+export const DISTRICT_ULSAN_DONG_STR = '동구';
+export const DISTRICT_ULSAN_BUK_STR = '북구';
+export const DISTRICT_ULSAN_ULJU_STR = '울주군';
+
+// 세종특별자치시 (단일)
+export const DISTRICT_SEJONG = 1201;
+export const DISTRICT_SEJONG_STR = '세종시';
+
+// 제주특별자치도 (2개 행정시)
+export const DISTRICT_JEJU_JEJU = 1301;
+export const DISTRICT_JEJU_SEOGWIPO = 1302;
+
+export const DISTRICT_JEJU_JEJU_STR = '제주시';
+export const DISTRICT_JEJU_SEOGWIPO_STR = '서귀포시';
+
+// 경상북도 (10개 시, 12개 군)
+export const DISTRICT_GYEONGBUK_POHANG = 1401;
+export const DISTRICT_GYEONGBUK_GYEONGJU = 1402;
+export const DISTRICT_GYEONGBUK_GIMCHEON = 1403;
+export const DISTRICT_GYEONGBUK_ANDONG = 1404;
+export const DISTRICT_GYEONGBUK_GUMI = 1405;
+export const DISTRICT_GYEONGBUK_YEONGJU = 1406;
+export const DISTRICT_GYEONGBUK_YEONGCHEON = 1407;
+export const DISTRICT_GYEONGBUK_SANGJU = 1408;
+export const DISTRICT_GYEONGBUK_MUNGYEONG = 1409;
+export const DISTRICT_GYEONGBUK_GYEONGSAN = 1410;
+export const DISTRICT_GYEONGBUK_UISEONG = 1411;
+export const DISTRICT_GYEONGBUK_CHEONGSONG = 1412;
+export const DISTRICT_GYEONGBUK_YEONGYANG = 1413;
+export const DISTRICT_GYEONGBUK_YEONGDEOK = 1414;
+export const DISTRICT_GYEONGBUK_CHEONGDO = 1415;
+export const DISTRICT_GYEONGBUK_GORYEONG = 1416;
+export const DISTRICT_GYEONGBUK_SEONGJU = 1417;
+export const DISTRICT_GYEONGBUK_CHILGOK = 1418;
+export const DISTRICT_GYEONGBUK_YECHEON = 1419;
+export const DISTRICT_GYEONGBUK_BONGHWA = 1420;
+export const DISTRICT_GYEONGBUK_ULJIN = 1421;
+export const DISTRICT_GYEONGBUK_ULLEUNG = 1422;
+
+export const DISTRICT_GYEONGBUK_POHANG_STR = '포항시';
+export const DISTRICT_GYEONGBUK_GYEONGJU_STR = '경주시';
+export const DISTRICT_GYEONGBUK_GIMCHEON_STR = '김천시';
+export const DISTRICT_GYEONGBUK_ANDONG_STR = '안동시';
+export const DISTRICT_GYEONGBUK_GUMI_STR = '구미시';
+export const DISTRICT_GYEONGBUK_YEONGJU_STR = '영주시';
+export const DISTRICT_GYEONGBUK_YEONGCHEON_STR = '영천시';
+export const DISTRICT_GYEONGBUK_SANGJU_STR = '상주시';
+export const DISTRICT_GYEONGBUK_MUNGYEONG_STR = '문경시';
+export const DISTRICT_GYEONGBUK_GYEONGSAN_STR = '경산시';
+export const DISTRICT_GYEONGBUK_UISEONG_STR = '의성군';
+export const DISTRICT_GYEONGBUK_CHEONGSONG_STR = '청송군';
+export const DISTRICT_GYEONGBUK_YEONGYANG_STR = '영양군';
+export const DISTRICT_GYEONGBUK_YEONGDEOK_STR = '영덕군';
+export const DISTRICT_GYEONGBUK_CHEONGDO_STR = '청도군';
+export const DISTRICT_GYEONGBUK_GORYEONG_STR = '고령군';
+export const DISTRICT_GYEONGBUK_SEONGJU_STR = '성주군';
+export const DISTRICT_GYEONGBUK_CHILGOK_STR = '칠곡군';
+export const DISTRICT_GYEONGBUK_YECHEON_STR = '예천군';
+export const DISTRICT_GYEONGBUK_BONGHWA_STR = '봉화군';
+export const DISTRICT_GYEONGBUK_ULJIN_STR = '울진군';
+export const DISTRICT_GYEONGBUK_ULLEUNG_STR = '울릉군';
+
+// 경상남도 (8개 시, 10개 군)
+export const DISTRICT_GYEONGNAM_CHANGWON = 1501;
+export const DISTRICT_GYEONGNAM_JINJU = 1502;
+export const DISTRICT_GYEONGNAM_TONGYEONG = 1503;
+export const DISTRICT_GYEONGNAM_SACHEON = 1504;
+export const DISTRICT_GYEONGNAM_GIMHAE = 1505;
+export const DISTRICT_GYEONGNAM_MIRYANG = 1506;
+export const DISTRICT_GYEONGNAM_GEOJE = 1507;
+export const DISTRICT_GYEONGNAM_YANGSAN = 1508;
+export const DISTRICT_GYEONGNAM_UIRYEONG = 1509;
+export const DISTRICT_GYEONGNAM_HAMAN = 1510;
+export const DISTRICT_GYEONGNAM_CHANGNYEONG = 1511;
+export const DISTRICT_GYEONGNAM_GOSEONG = 1512;
+export const DISTRICT_GYEONGNAM_NAMHAE = 1513;
+export const DISTRICT_GYEONGNAM_HADONG = 1514;
+export const DISTRICT_GYEONGNAM_SANCHEONG = 1515;
+export const DISTRICT_GYEONGNAM_HAMYANG = 1516;
+export const DISTRICT_GYEONGNAM_GEOCHANG = 1517;
+export const DISTRICT_GYEONGNAM_HAPCHEON = 1518;
+
+export const DISTRICT_GYEONGNAM_CHANGWON_STR = '창원시';
+export const DISTRICT_GYEONGNAM_JINJU_STR = '진주시';
+export const DISTRICT_GYEONGNAM_TONGYEONG_STR = '통영시';
+export const DISTRICT_GYEONGNAM_SACHEON_STR = '사천시';
+export const DISTRICT_GYEONGNAM_GIMHAE_STR = '김해시';
+export const DISTRICT_GYEONGNAM_MIRYANG_STR = '밀양시';
+export const DISTRICT_GYEONGNAM_GEOJE_STR = '거제시';
+export const DISTRICT_GYEONGNAM_YANGSAN_STR = '양산시';
+export const DISTRICT_GYEONGNAM_UIRYEONG_STR = '의령군';
+export const DISTRICT_GYEONGNAM_HAMAN_STR = '함안군';
+export const DISTRICT_GYEONGNAM_CHANGNYEONG_STR = '창녕군';
+export const DISTRICT_GYEONGNAM_GOSEONG_STR = '고성군';
+export const DISTRICT_GYEONGNAM_NAMHAE_STR = '남해군';
+export const DISTRICT_GYEONGNAM_HADONG_STR = '하동군';
+export const DISTRICT_GYEONGNAM_SANCHEONG_STR = '산청군';
+export const DISTRICT_GYEONGNAM_HAMYANG_STR = '함양군';
+export const DISTRICT_GYEONGNAM_GEOCHANG_STR = '거창군';
+export const DISTRICT_GYEONGNAM_HAPCHEON_STR = '합천군';
+
+// 전북특별자치도 (6개 시, 8개 군)
+export const DISTRICT_JEONBUK_JEONJU = 1601;
+export const DISTRICT_JEONBUK_GUNSAN = 1602;
+export const DISTRICT_JEONBUK_IKSAN = 1603;
+export const DISTRICT_JEONBUK_JEONGEUP = 1604;
+export const DISTRICT_JEONBUK_NAMWON = 1605;
+export const DISTRICT_JEONBUK_GIMJE = 1606;
+export const DISTRICT_JEONBUK_WANJU = 1607;
+export const DISTRICT_JEONBUK_JINAN = 1608;
+export const DISTRICT_JEONBUK_MUJU = 1609;
+export const DISTRICT_JEONBUK_JANGSU = 1610;
+export const DISTRICT_JEONBUK_IMSIL = 1611;
+export const DISTRICT_JEONBUK_SUNCHANG = 1612;
+export const DISTRICT_JEONBUK_GOCHANG = 1613;
+export const DISTRICT_JEONBUK_BUAN = 1614;
+
+export const DISTRICT_JEONBUK_JEONJU_STR = '전주시';
+export const DISTRICT_JEONBUK_GUNSAN_STR = '군산시';
+export const DISTRICT_JEONBUK_IKSAN_STR = '익산시';
+export const DISTRICT_JEONBUK_JEONGEUP_STR = '정읍시';
+export const DISTRICT_JEONBUK_NAMWON_STR = '남원시';
+export const DISTRICT_JEONBUK_GIMJE_STR = '김제시';
+export const DISTRICT_JEONBUK_WANJU_STR = '완주군';
+export const DISTRICT_JEONBUK_JINAN_STR = '진안군';
+export const DISTRICT_JEONBUK_MUJU_STR = '무주군';
+export const DISTRICT_JEONBUK_JANGSU_STR = '장수군';
+export const DISTRICT_JEONBUK_IMSIL_STR = '임실군';
+export const DISTRICT_JEONBUK_SUNCHANG_STR = '순창군';
+export const DISTRICT_JEONBUK_GOCHANG_STR = '고창군';
+export const DISTRICT_JEONBUK_BUAN_STR = '부안군';
+
+// 전라남도 (5개 시, 17개 군)
+export const DISTRICT_JEONNAM_MOKPO = 1701;
+export const DISTRICT_JEONNAM_YEOSU = 1702;
+export const DISTRICT_JEONNAM_SUNCHEON = 1703;
+export const DISTRICT_JEONNAM_NAJU = 1704;
+export const DISTRICT_JEONNAM_GWANGYANG = 1705;
+export const DISTRICT_JEONNAM_DAMYANG = 1706;
+export const DISTRICT_JEONNAM_GOKSEONG = 1707;
+export const DISTRICT_JEONNAM_GURYE = 1708;
+export const DISTRICT_JEONNAM_GOHEUNG = 1709;
+export const DISTRICT_JEONNAM_BOSEONG = 1710;
+export const DISTRICT_JEONNAM_HWASUN = 1711;
+export const DISTRICT_JEONNAM_JANGHEUNG = 1712;
+export const DISTRICT_JEONNAM_GANGJIN = 1713;
+export const DISTRICT_JEONNAM_HAENAM = 1714;
+export const DISTRICT_JEONNAM_YEONGAM = 1715;
+export const DISTRICT_JEONNAM_MUAN = 1716;
+export const DISTRICT_JEONNAM_HAMPYEONG = 1717;
+export const DISTRICT_JEONNAM_YEONGGWANG = 1718;
+export const DISTRICT_JEONNAM_JANGSEONG = 1719;
+export const DISTRICT_JEONNAM_WANDO = 1720;
+export const DISTRICT_JEONNAM_JINDO = 1721;
+export const DISTRICT_JEONNAM_SINAN = 1722;
+
+export const DISTRICT_JEONNAM_MOKPO_STR = '목포시';
+export const DISTRICT_JEONNAM_YEOSU_STR = '여수시';
+export const DISTRICT_JEONNAM_SUNCHEON_STR = '순천시';
+export const DISTRICT_JEONNAM_NAJU_STR = '나주시';
+export const DISTRICT_JEONNAM_GWANGYANG_STR = '광양시';
+export const DISTRICT_JEONNAM_DAMYANG_STR = '담양군';
+export const DISTRICT_JEONNAM_GOKSEONG_STR = '곡성군';
+export const DISTRICT_JEONNAM_GURYE_STR = '구례군';
+export const DISTRICT_JEONNAM_GOHEUNG_STR = '고흥군';
+export const DISTRICT_JEONNAM_BOSEONG_STR = '보성군';
+export const DISTRICT_JEONNAM_HWASUN_STR = '화순군';
+export const DISTRICT_JEONNAM_JANGHEUNG_STR = '장흥군';
+export const DISTRICT_JEONNAM_GANGJIN_STR = '강진군';
+export const DISTRICT_JEONNAM_HAENAM_STR = '해남군';
+export const DISTRICT_JEONNAM_YEONGAM_STR = '영암군';
+export const DISTRICT_JEONNAM_MUAN_STR = '무안군';
+export const DISTRICT_JEONNAM_HAMPYEONG_STR = '함평군';
+export const DISTRICT_JEONNAM_YEONGGWANG_STR = '영광군';
+export const DISTRICT_JEONNAM_JANGSEONG_STR = '장성군';
+export const DISTRICT_JEONNAM_WANDO_STR = '완도군';
+export const DISTRICT_JEONNAM_JINDO_STR = '진도군';
+export const DISTRICT_JEONNAM_SINAN_STR = '신안군';
+
